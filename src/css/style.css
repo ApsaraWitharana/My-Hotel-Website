@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-color: #ecb970 !important;
+}
+
+#mainPane{
+    background-color: #efc572 !important;
+}
+
+header{
+    z-index: 1000;
+    background-color: #E8F4FF;
+}
+
+header .items a{
+    text-decoration: none !important;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+header nav ul{
+    list-style: none;
+
+}
+
+header nav > :last-child{
+    display: flex;
+    justify-content: end;
+}
+header .items{
+    display: flex;
+    justify-content: center;
+}
+
+header .mainNav{
+    justify-content: space-around;
+}
+
+header nav > :last-child > button{
+    padding: 5px 5%;
+    border: 2px solid #12cc18;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+header nav > :last-child > :last-child{
+    background-color: #19c01c;
+}
+
+header nav > :last-child > :first-child a{
+    color: #000;
+    text-decoration: none;
+}
+header nav > :last-child > :last-child a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li:hover{
+    border-bottom: 2px solid #1f840b;
+    color: #065218;
+    transition: 0.1s;
+}
+
+.homePage{
+    position: relative;
+    top: 4rem;
+}
+
+.homePage img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 2vh;
+}
+
+.homePage p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #AEB4B9;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.homePage h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 4rem;
+}
+
+.homePage > div > :first-child > :last-child{
+    margin-top: 5rem;
+}
+
+.homePage div > :first-child > div > :first-child button{
+    padding: 15px 40px;
+    border: 2px solid #1cd965;
+    background-color: #0d8d2f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.homePage div > :first-child > div > :last-child button{
+    padding: 15px 20px;
+    border: 2px solid #0c8408;
+    background-color: transparent;
+    color: #17c531;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.homePage > div {
+    padding-top: 8rem;
+}
+
+.aboutPage{
+    margin-top: 10rem;
+}
+
+.aboutPage .card-img{
+    width: 100px;
+    height: 100px;
+    background-color: #E8F4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.aboutPage .card-img img{
+    width: 50%;
+    height: 50%;
+}
+
+#Packages > :last-child a > button , .gallery > :last-child button , .blog > :last-child button{
+    border: 2px solid #0fce62;
+    padding: 10px 20px;
+}
+
+#Packages > :last-child a > button:hover , .gallery > :last-child button:hover , .blog > :last-child button:hover{
+    background: #08be30 !important;
+    transition: 1.5s;
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+#Packages .btn , .blog .btn{
+    background-color: #0dca2a;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.comments img{
+    width: 4dv0px;
+    margin-right: 20px;
+}
+.accordion-item{
+    background-color: #0dae5e !important;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #11d114 !important;
+}
+
+header nav ul li a{
+    padding: 5px 10px !important;
+}
+
+.contact-form {
+    background-color: #40a45e; /* White background for the form area */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .contact-info {
+    padding: 2rem;
+  }
+  .contact-info p {
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-info iframe{
+    width: 100%;
+  }
+
+  #contact .my-5 {
+    margin-top: 8rem !important;
+    margin-bottom: 3rem !important;
+}
+
+footer{
+    background-color: #979393;
+    padding: 2rem;
+    color: #0d0a0a ;
+}
+
+footer ul li{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 1440px){
+    header nav .items{
+        margin-left: 11rem;
+    }
+
+         .carousel-inner {
+             margin: 11rem;
+         }
+}
+
+@media screen and (max-width: 768px){
+    header .mainNav{
+        justify-content: space-between;
+    }
+    header .items{
+        position: absolute;
+        top: 57px;
+        width: 100%;
+        background-color: #E8F4FF;
+        left: 0px;
+    }
+    header .items ul{
+        display: flex;
+        text-align: center;
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+
+    header nav > :last-child{
+        position: absolute;
+        top: 16.4rem;
+        left: -6px;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: center;
+        margin-left: 10px;
+        align-items: center;
+        background-color: #E8F4FF;
+    }
+
+    .homePage .row{
+        display: flex;
+        flex-direction: column;
+        gap: 8rem;
+    }
+
+    .aboutPage .card-set{
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .aboutPage .card{
+        width: 100% !important;
+    }
+
+    .aboutPage .about-p{
+        width: 90% !important;
+    }
+
+         .carousel-inner {
+             margin: auto;
+         }
+}
+
+@media (max-width: 1024px) {
+    #nav_ul {
+        gap: 1rem !important;
+
+    }
+         .carousel-inner {
+             margin: auto;
+         }
+}

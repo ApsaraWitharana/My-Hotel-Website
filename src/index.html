@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dusvii</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    <style>
+        .gallery-item {
+          margin-bottom: 20px;
+        }
+        .gallery-item img {
+          max-width: 100%;
+          height: auto;
+        }
+        .carousel-inner{
+          /* width: 1600px;
+          height: 800px;
+          padding:40px 90px; */
+            width: 1400px;
+            height: 600px;
+
+        }
+
+        .btnbtn-primary:hover{
+
+          color: green;
+        }
+    </style>
+
+
+</head>
+<body>
+<header class="navbar navbar-expand-lg d-flex position-fixed w-100">
+    <nav id="navbar-example2" class="d-flex w-100 mainNav ms-3 me-3  ">
+        <div class="logo">
+            <h1 style="font-size: 30px;">BOOK NOW</h1>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="items collapse navbar-collapse flex-column" id="navbarNavDropdown">
+            <ul style="align-items: left;" id="nav_ul" class="d-flex gap-5  w-100 m-0 nav-pills">
+                <li class="nav-item "><a class="nav-link " href="#homePage">Home</a></li>
+                <li class="nav-item "><a class="nav-link " href="#aboutPage">About</a></li>
+                <li class="nav-item "><a class="nav-link " href="#Packages">Packages</a></li>
+                <li class="nav-item "><a class="nav-link " href="#Gallery">Gallery</a></li>
+                <li class="nav-item "><a class="nav-link " href="#blog">Gym</a></li>
+                <li class="nav-item "><a class="nav-link " href="#comments">Spar</a></li>
+                <li class="nav-item "><a class="nav-link " href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <button>
+                <a href="">Sign Up</a>
+            </button>
+            <button class="ms-4">
+                <a href="">Login</a>
+            </button>
+        </div>
+
+    </nav>
+</header>
+
+<div id="mainPane" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+
+    <section id="homePage" class="homePage ms-5 me-5 ">
+        <div class="row">
+            <div class="col pt-5 ">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/345182.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/secound-image.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <h1 class=""> The Dusvii Hotel's <br> Best in the world</h1>
+                <p> Welcome to Dusvi Star Hotel, where luxury meets comfort. Located in the heart of Galle, our hotel offers a unique and
+                    unforgettable experience for travelers seeking relaxation and indulgence.Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</p>
+                <div>
+                    <a href=""><button>Book Now</button></a>
+                    <a href=""><button><i class="bi bi-play-fill"></i></button></a>
+                </div>
+            </div>
+            <!-- <div class="col homeimg"> -->
+            <!-- <img src="img/homePage.png" alt=""> -->
+
+        </div>
+    </section>
+
+    <section id="aboutPage" class="aboutPage w-100 h-auto ">
+        <div class="w-100 text-center ">
+            <h1>Why Choose Us!</h1>
+            <div class="w-100 d-flex justify-content-center ">
+                <p class="w-25 about-p">Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</p>
+            </div>
+        </div>
+
+        <div style="padding: 0 5px; " class="d-flex justify-content-around ms-5 me-5 py-5 card-set">
+
+            <div class="card w-25 text-center p-4 shadow-lg  border-0 rounded-4 " >
+                <div  class="w-100 d-flex justify-content-center pt-3 ">
+                    <div class="card-img">
+                        <img src="img/icons/image.png" alt="">
+                    </div>
+                </div>
+                <h2 class="pt-3 ">Parking Area</h2>
+                <p class="pt-3 ">Convenience meets peace of mind as you arrive at our hotel, where a dedicated parking area awaits to accommodate your
+                    vehicle with ease. Nestled within the embrace of our welcoming establishment, our spacious parking facilities offer a
+                    secure haven for your car, ensuring a seamless transition from travel to relaxation. </p>
+            </div>
+
+            <div class="card w-25 text-center p-4 shadow-lg  border-0 rounded-4 ">
+                <div class="w-100 d-flex justify-content-center pt-3 ">
+                    <div class="card-img">
+                        <img src="img/icons/freewifi.png" alt="">
+                    </div>
+                </div>
+                <h2 class="pt-3 ">Free Wifi Connect</h2>
+                <p class="pt-3 ">Indulge in seamless connectivity during your stay at our hotel, where complimentary Wi-Fi awaits to enhance your
+                    experience. Whether you're catching up on emails, streaming your favorite shows, or planning your next adventure, stay
+                    effortlessly connected throughout your time with us.</p>
+            </div>
+
+            <div class="card w-25 text-center p-4 shadow-lg  border-0 rounded-4 ">
+                <div class="w-100 d-flex justify-content-center pt-3 ">
+                    <div class="card-img">
+                        <img src="img/icons/swimming.png" alt="">
+                    </div>
+                </div>
+                <h2 class="pt-3 ">Swimming Pool Facility</h2>
+                <p class="pt-3 ">Nestled amidst lush greenery, the hotel's swimming pool beckons guests with its serene allure. Crisp blue waters shimmer
+                    under the caress of the sun, inviting visitors to escape the heat and indulge in refreshing leisure. The poolside exudes
+                    tranquility, with plush loungers dotting the periphery, offering respite for weary travelers. </p>
+            </div>
+
+            <div class="card w-25 text-center p-4 shadow-lg  border-0 rounded-4 ">
+                <div class="w-100 d-flex justify-content-center pt-3 ">
+                    <div class="card-img">
+                        <img src="img/icons/pickme icon.jpeg" alt="">
+                    </div>
+                </div>
+
+                <h2 class="pt-3 ">Pickme</h2>
+                <p class="pt-3 ">Nestled amidst lush greenery, the hotel's swimming pool beckons guests with its serene allure. Crisp
+                    blue waters shimmer
+                    under the caress of the sun, inviting visitors to escape the heat and indulge in refreshing leisure. The poolside
+                    exudes
+                    tranquility, with plush loungers dotting the periphery, offering respite for weary travelers. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Packages" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Packages</h2>
+            <p class="lead text-center mb-5 ">Discover our luxurious rooms and suites.</p>
+            <div class="row">
+                <!-- Sample Room Card 1 -->
+                <div class="col-md-4 mb-4 ">
+                    <div class="card">
+                        <img src="img/packages-img/bed room4.jpg" class="card-img-top" alt="Room Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Standard Room</h5>
+                            <p class="card-text">Experience comfort in our standard rooms.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sample Room Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/packages-img/bedroom.jpeg" class="card-img-top" alt="Room Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe Room</h5>
+                            <p class="card-text">Indulge in luxury with our deluxe rooms.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sample Room Card 3 -->
+                <div class="col-md-4 mb-4 ">
+                    <div class="card">
+                        <img src="img/packages-img/bedroom2.jpeg" class="card-img-top" alt="Room Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Standard A/C Room</h5>
+                            <p class="card-text">Experience ultimate luxury in our suites.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Room Card 4 -->
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/packages-img/bedroom3.jpeg" class="card-img-top" alt="Room Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe A/C Room</h5>
+                            <p class="card-text">Indulge in luxury with our deluxe rooms.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Room Card 5 -->
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/packages-img/steven-ungermann-aRT5UCf2MYY-unsplash.jpg" class="card-img-top" alt="Room Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe NON A/C Room</h5>
+                            <p class="card-text">Indulge in luxury with our deluxe rooms.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Room Card 6 -->
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/packages-img/adam-winger-VGs8z60yT2c-unsplash.jpg" class="card-img-top" alt="Room Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe Room</h5>
+                            <p class="card-text">Indulge in luxury with our deluxe rooms.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 text-center p-5 ">
+            <a href="pages/packages.html"> <button class="w-100 bg-transparent rounded-2 ">Load More</button></a>
+        </div>
+    </section>
+
+    <section id="Gallery" class="gallery">
+        <div class="container">
+            <h2 class="text-center">Hotel Gallery</h2>
+            <p class="text-center mb-5 ">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+                <div class="col-md-4 gallery-item">
+                    <img src="img/gallary/pool2.jpeg" alt="Gallery Image 1">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="img/gallary/pool3.jpeg" alt="Gallery Image 2">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="img/gallary/jym2.jpeg" alt="Gallery Image 3">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="img/packages-img/bedroom2.jpeg" alt="Gallery Image 4">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="img/gallary/kitchan.jpeg"alt="Image 5" >
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="img/gallary/theo-maroulis-7jXvvEMNTkc-unsplash.jpg" alt="Gallery Image 6">
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 text-center p-5 ">
+            <a href="pages/gallery.html"><button class="w-100 bg-transparent rounded-2 ">Load More</button></a>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5 blog">
+        <div class="container text-center mt-5 ">
+            <h2 class="text-center">Our Gym</h2>
+            <p class="mb-5 ">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+                <!-- Sample Blog Post 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/gym/jym1.jpeg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Gym Post Title</h5>
+                            <p class="card-text">Located on the premises of our luxurious hotel, our state-of-the-art gym offers guests an unparalleled fitness
+                                experience. Equipped with the latest cardio machines, free weights, and resistance training equipment, our gym caters to
+                                fitness enthusiasts of all levels.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sample Blog Post 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/gym/jym2.jpeg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Gym Post Title</h5>
+                            <p class="card-text">Whether you're looking to maintain your workout routine or kickstart a new fitness journey, our knowledgeable staff is
+                                on hand to assist you.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sample Blog Post 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/gym/jym3.jpeg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Gym Post Title</h5>
+                            <p class="card-text">With its modern facilities and expert guidance, our hotel gym ensures that you stay active and energized throughout your
+                                stay.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="w-100 text-center p-5 ">
+          <a href="pages/blog.html"><button class="w-100 bg-transparent rounded-2 ">Load More</button></a>
+        </div> -->
+    </section>
+
+
+
+    <!-- Blog Section -->
+    <section id="comments" class="py-5 blog">
+        <div class="container text-center mt-5 ">
+            <h2 class="text-center">Our Spar</h2>
+            <p class="mb-5 ">Welcome to Your Cozy Haven</p>
+            <div class="row">
+                <!-- Sample Blog Post 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/spar/spa image.jpeg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Spar Details</h5>
+                            <p class="card-text">As you step into your meticulously appointed hotel room, a sense of serenity envelops you. The soft, ambient lighting
+                                casts a gentle glow over the tastefully decorated space, creating an inviting atmosphere...
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sample Blog Post 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/spar/spa2.jpeg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Spar Details</h5>
+                            <p class="card-text">Whether you seek a solitary retreat or a couples' getaway, our attentive staff is dedicated to providing an unparalleled
+                                experience of comfort and serenity.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sample Blog Post 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/spar/spa3.jpeg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title"> Spar Details</h5>
+                            <p class="card-text">As you step into your meticulously appointed hotel room, a sense of serenity envelops you. The soft, ambient lighting
+                                casts a gentle glow over the tastefully decorated space, creating an inviting atmosphere...
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 text-center p-5 ">
+            <a href="pages/blog.html"><button class="w-100 bg-transparent rounded-2 ">Load More</button></a>
+        </div>
+    </section>
+
+
+
+    </section>
+
+    <section itemid="contact" class="mt-5 my-5 " id="contact">
+        <div class="container my-5">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <div class="w-100 text-center mb-md-5 ">
+                            <h2>Contact Us</h2>
+                            <p>Do You Wont To Contact Us You Will Follow This Pages</p>
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="e.g. johndoe@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phoneNumber" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phoneNumber" placeholder="+234">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message or Enquiry</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Type something"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 style="align-items: center; margin: 0 100px;">
+                        Mirrissa Dusvii Resolte Location
+                    </h3>
+                    <div class="contact-info p-md-5 m-lg-5 ">
+                        <!-- Embedded Google Map or any other map service -->
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.645939136611!2d79.83936567594108!3d6.93285289306709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259259a6157fb%3A0x8c0cebb288af4419!2sThe%20Kingsbury%20Colombo!5e0!3m2!1sen!2slk!4v1713101371224!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                        <iframe
+
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6348.73174430156!2d80.4414243282287!3d5.949865238339876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4d119034e0e0d%3A0x2f29fcb021b42322!2sMirissa%20Beach%20Hotel!5e0!3m2!1sen!2slk!4v1649864395322!5m2!1sen!2slk"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                        <!-- Contact details -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+<footer>
+    <div class="row">
+        <div class="col text-center ">
+            <h4>Travel</h4>
+            <p>Thank You So Much For <br> Your Valuable Time</p>
+        </div>
+
+        <div class="col text-center ">
+            <h4>Quick Links</h4>
+            <ul class="list-inline ">
+                <li>Home</li>
+                <li>About</li>
+                <li>Packages</li>
+                <li>Gallery</li>
+                <li>Gym</li>
+                <li>Spar</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="col text-center ">
+            <h4>Follow Us</h4>
+            <ul class="list-inline">
+                <li><i class="bi bi-facebook"></i></li>
+                <li><i class="bi bi-instagram"></i></li>
+                <li><i class="bi bi-linkedin"></i></li>
+            </ul>
+        </div>
+
+        <div class="col text-center ">
+            <h4>Contact Us</h4>
+            <p>Traveling</p>
+            <p>NO-12 Mirrissa KingsbaryHotels Waligama</p>
+            <p>Matara, Sri Lanka</p>
+            <p>077-3456789</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Responsive Image Gallery</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        filter: grayscale(1) brightness(0.5);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s linear;
+      }
+        img:hover {
+        filter: grayscale(0);
+      }
+
+        img{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="navbar navbar-expand-lg d-flex position-fixed w-100">
+    <nav id="navbar-example2" class="d-flex w-100 mainNav ms-3 me-3  ">
+        <div class="logo">
+            <h1>Travel</h1>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="items collapse navbar-collapse flex-column" id="navbarNavDropdown">
+            <ul id="nav_ul" class="d-flex gap-5  w-100 m-0 nav-pills">
+                <li class="nav-item "><a class="nav-link " href="/index.html">Home</a></li>
+                <li class="nav-item "><a class="nav-link " href="#aboutPage">About</a></li>
+                <li class="nav-item "><a class="nav-link " href="#Packages">Packages</a></li>
+                <li class="nav-item "><a class="nav-link " href="#Gallery">Gallery</a></li>
+                <li class="nav-item "><a class="nav-link " href="#blog">Blog</a></li>
+                <li class="nav-item "><a class="nav-link " href="#comments">Comments</a></li>
+                <li class="nav-item "><a class="nav-link " href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <button>
+                <a href="">Sign Up</a>
+            </button>
+            <button class="ms-4">
+                <a href="">Login</a>
+            </button>
+        </div>
+
+    </nav>
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/img/gallary/pool2.jpeg" class="img-fluid" alt="Image 1">
+            <img src="/img/gallary/pool3.jpeg" class="img-fluid" alt="Image 2">
+            <img src="/img/gallary/eiliv-aceron-2LzqR50_NTw-unsplash.jpg" class="img-fluid" alt="Image 3">
+            <img src="/img/packages-img/bed room4.jpg" class="img-fluid" alt="Image 4">
+            <img src="/img/gallary/j-zeerak-Tkgo0qhNrjQ-unsplash (1).jpg" class="img-fluid" alt="Image 5">
+            <img src="/img/spar/spa3.jpeg" class="img-fluid" alt="Image 5">
+            <img src="/img/gym/jym3.jpeg" class="img-fluid" alt="Image 5">
+
+
+        </div>
+        <div class="col-md-4">
+            <img src="/img/gallary/kelsey-curtis--27u_GzlAFw-unsplash.jpg" class="img-fluid" alt="Image 6">
+            <img src="/img/gallary/mateo-fernandez-XTC538P_eWk-unsplash.jpg" class="img-fluid" alt="Image 7">
+            <img src="/img/gallary/rhema-kallianpur-jbJ-_hw2yag-unsplash.jpg" class="img-fluid" alt="Image 8">
+            <img src="/img/gallary/saad-khan-425b2PhNuHA-unsplash.jpg" class="img-fluid" alt="Image 9">
+            <img src="/img/packages-img/bedroom.jpeg" class="img-fluid" alt="Image 9">
+            <img src="/img/spar/spa2.jpeg" class="img-fluid" alt="Image 9">
+
+
+
+
+        </div>
+
+        <div class="col-md-4">
+            <img src="/img/gallary/jym2.jpeg" class="img-fluid" alt="Image 6">
+            <img src="/img/gallary/theo-maroulis-7jXvvEMNTkc-unsplash.jpg" class="img-fluid" alt="Image 7">
+            <img src="/img/gallary/sara-dubler-Koei_7yYtIo-unsplash.jpg" class="img-fluid" alt="Image 8">
+            <img src="/img/gallary/saad-khan-425b2PhNuHA-unsplash.jpg" class="img-fluid" alt="Image 9">
+            <img src="/img/gym/jym1.jpeg" class="img-fluid" alt="Image 9">
+            <img src="/img/gallary/cook-image.jpeg" class="img-fluid" alt="Image 9">
+            <img src="/img/spar/spa image.jpeg" class="img-fluid" alt="Image 9">
+            <img src="/img/packages-img/bedroom2.jpeg" class="img-fluid" alt="Image 9">
+
+
+
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="row">
+        <div class="col text-center ">
+            <h4>Travel</h4>
+            <p>Thank You So Much For <br> Your Valuable Time</p>
+        </div>
+
+        <div class="col text-center ">
+            <h4>Quick Links</h4>
+            <ul class="list-inline ">
+                <li>Home</li>
+                <li>About</li>
+                <li>Packages</li>
+                <li>Gallery</li>
+                <li>Blog</li>
+                <li>Comments</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="col text-center ">
+            <h4>Follow Us</h4>
+            <ul class="list-inline">
+                <li><i class="bi bi-facebook"></i></li>
+                <li><i class="bi bi-instagram"></i></li>
+                <li><i class="bi bi-twitter"></i></li>
+                <li><i class="bi bi-linkedin"></i></li>
+            </ul>
+        </div>
+
+        <div class="col text-center ">
+            <h4>Contact Us</h4>
+            <p>Travel</p>
+            <p>123, 4th Street, 5th Avenue</p>
+            <p>City, Country</p>
+            <p>1234567890</p>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
